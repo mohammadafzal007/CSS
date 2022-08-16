@@ -1,0 +1,15 @@
+div.afzal{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: start;
+    font-style:bold;
+    font-weight: 900;
+    border:8px solid red;
+    } */
+    div.afzal{
+        border:9px groove red;
+width:500px;
+height:500px;
+
+        border-bottom-right-radius:20px;
+/* border-image-source:url("MCU.png"); */
+background-image:linear-gradient(to right, yellow,red,blue);}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#2f363e
+        }
+        .container {
+            width:15vw;
+            height:30vh;
+            /* transform: translate(100px 200px); */
+            border: 2px solid black;
+            background:#2f4584;
+            /* transform:translate(-200px,100px) rotate(-45deg)  ; */
+            /* transform:scale(0.5,0.5); */
+/* transform:sclaeX(2)  scaleY(0.5);             */
+           
+        }
+        .container:hover{
+            /* transform:translate(100px,20px) scale(0.5,0.5) skewX(45deg) skewY(30deg); */
+            transform:skew(20deg,80deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem impedit aut laborum
+        non, libero inventore voluptate velit minima laboriosam maiores pariatur odit aliquam voluptatem aspernatur
+        quaerat ipsam assumenda iste!</div>
+</body>
+
+</html>

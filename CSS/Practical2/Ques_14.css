@@ -1,0 +1,46 @@
+h2 {
+    color: white;
+    background-color: burlywood;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#id1 {
+
+    color: red;
+    background-color: greenyellow;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+
+.center {
+    font-weight:bold;
+    color: red;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+table,
+th,td{
+    color:rgb(141, 17, 17);
+    border: 5px solid brown;
+    width: 50%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color:burlywood;
+}
+
+
+
+
+/* *{
+    color:red;
+    background-color: skyblue;
+    font-size: 20px;
+    font-family:Serif;
+    background-image: url("MCU.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+} */

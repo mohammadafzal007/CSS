@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ec5ac47920.js" crossorigin="anonymous"></script>
+    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kdam+Thmor+Pro&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+     }
+
+        .nav {
+            background-color: #555;
+
+        }
+
+        .nav ul {
+            overflow: auto;
+
+        }
+
+        .nav li {
+
+            float: left;
+            list-style: none;
+            margin: 5px 20px;
+            font-family: cursive;
+
+        }
+
+        .nav li a:hover {
+            border: inset rgb(191, 77, 77);
+            color: white;
+        }
+
+        .nav ul li a {
+            padding: 2px 10px;
+            text-decoration: none;
+            font-family: 'Dancing Script', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-size:20px;
+color: black;
+display:block;
+            
+        }
+
+        .btn {
+            position: relative;
+            float: right;
+            top: 10px;
+            height: 20px;
+            width: 50px;
+            right: 30px;
+        }
+        .nav input{
+            float:right;
+            position:relative;
+            right:50px;
+            top:10px;
+            height:20px;
+        }
+        .nav input:hover{
+            border:2px solid black;
+        }
+        .header h1{
+            text-align:center;
+            color:rgb(128, 111, 0);
+            font-size:40px;
+            margin:10px;
+            text-decoration:underline;
+            font-family: 'Dancing Script', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-weight:100;
+text-shadow:2px 2px 5px rgb(32, 5, 243);
+background-image:linear-gradient(#74FD77,#7270EC,#275FEC);
+background-repeat:no-repeat;
+background-size:cover;
+margin: 0;
+        }
+        .header h1:hover{
+           color:rgb(12, 211, 22);
+           
+        }
+        input:not(:placeholder-shown)+button{
+            display:block;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Welcome to Siddiqui Website</h1>
+        </header>
+
+    <nav class="nav">
+
+        <ul class="links showlinks">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <div class="sp1">
+                <input type="text" placeholder="Seach here"></input>
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </ul>
+        </div>
+    </nav>
+</div>
+    <script>
+        let links = document.querySelector(".links");
+        let navtoggle = document.querySelector(".nav-toggle");
+
+        navtoggle.addEventListener("click", function () {
+            if (links.classList.contains("showlinks")) {
+                links.classList.remove("showlinks");
+            }
+            else {
+                links.classList.add("showlinks");
+            }
+        })
+    </script>
+</body>
+
+</html>
